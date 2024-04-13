@@ -9,6 +9,8 @@ export function App  ()  {
   useEffect(()=>{
 
   },[])
+
+  
   const task=useSelector((state=>state.task)) //esto viene del name:"task" de linea 15 de todosSlice.js
   return (
     <>
