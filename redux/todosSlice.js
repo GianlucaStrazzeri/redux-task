@@ -1,5 +1,7 @@
 import {createSlice} from "@reduxjs/toolkit";
 
+
+
 const initialState ={
     taskName: null,
     taskDescription: null,
@@ -28,3 +30,5 @@ changeCompleted: (state,action)=>{
 
 export const {addTask, changeCompleted} = taskSlice.actions;
 //Este actions no lo hemos creado pero ya está dentro al estar utilizando {createSlice} 
+
+export default taskSlice.reducer
